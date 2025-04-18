@@ -1,4 +1,4 @@
-# Boba Programming Language
+# Boba Programming Language (In Development)
 
 Boba is a statically typed programming language with a clean and expressive syntax.
 
