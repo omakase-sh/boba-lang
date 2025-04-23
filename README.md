@@ -1,6 +1,6 @@
 # Boba Programming Language
 
-Boba is a statically typed programming language with a clean and expressive syntax.
+Boba is a high level, statically typed programming language with a clean and expressive syntax.
 
 ## Features
 
@@ -21,21 +21,21 @@ fun myFunction(mynum: int, mystring: string, myfloat: float): int, string, float
     noval = null
     mylist = [1,2,3,4,5]
     mymap = [1:"var",2:"var2"]
-    footofloat = foo.float # turn int to float 
-    
+    footofloat = foo.float # turn int to float
+
     #this is a comment
     ###
         this is a multiline comment
     ###
-    
+
     output("hello world") #new line by default
     output("hello world", foo.float + myfloat , "another message")
     outputf("hello {mystring}") #formatted output and putting using mystring as variable
     output&(mynum) #output address of variable
-    
+
     input("get num from user:")
     inputf("get num from {mystring}:")
-    
+
     if foo is int {
         return mybool
     }
@@ -45,17 +45,17 @@ fun myFunction(mynum: int, mystring: string, myfloat: float): int, string, float
     else {
         return null
     }
-    
+
     loop i=0,i...100 { # for loop in range to 100, loops count as while too
         outputf({i})
     }
-    
+
     loop i till foo is null {
-        continue #continues down to next 
+        continue #continues down to next
     }
-    
+
     loop i { #while loop example loop i if true
-        # do something 
+        # do something
         i = false
     }
 }

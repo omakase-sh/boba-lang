@@ -1,6 +1,7 @@
 # Simple Boba program
 
-fun main(): null {
+fun main() {
+    #output("test")
+    
     output("Hello, World!")
-    return null
 }

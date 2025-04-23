@@ -1,5 +1,7 @@
 # Hello World example in Boba
 
+ 
+
 fun main(): null {
     output("Hello, World!")
     
@@ -22,7 +24,7 @@ fun main(): null {
     output("A map:", my_map)
     
     # Type conversion
-    float_number = number.float
+    float_number = float(number)
     output("Converted to float:", float_number)
     
     # Conditional
@@ -35,6 +37,5 @@ fun main(): null {
     loop i=1, i...6 {
         outputf("{i}")
     }
-    
     return null
 }
